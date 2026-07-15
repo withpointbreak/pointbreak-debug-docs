@@ -1,55 +1,44 @@
-# Pointbreak Documentation
+# Pointbreak Debug Documentation
 
-This repository contains the source for [docs.withpointbreak.com](https://docs.withpointbreak.com) — the official documentation for Pointbreak.
+> [!IMPORTANT]
+> These are the retained source files for the legacy Pointbreak Debug product.
+> They are unpublished from Mintlify and must not be presented as documentation for the new product.
 
-## About Pointbreak
+This repository is `withpointbreak/pointbreak-debug-docs`. It documents the discontinued debugger
+bridge, IDE extensions, CLI, and MCP tools represented by
+[`withpointbreak/pointbreak-debug`](https://github.com/withpointbreak/pointbreak-debug).
 
-Pointbreak gives AI assistants real debugger access, letting them set breakpoints, step through code, and inspect variables in your IDE through natural language.
+## Publication status
 
-**Main repository:** [github.com/withpointbreak/pointbreak](https://github.com/withpointbreak/pointbreak)
+The legacy Mintlify project is disconnected and its custom domain is retired. The
+`docs.withpointbreak.com` identity is reserved for new Pointbreak documentation that has not been
+created or published yet. Broken links to the former hosted Debug documentation are an accepted
+migration outcome.
 
-## Documentation Site
+Do not reconnect this repository or publish it under the canonical documentation domain without an
+explicit reversal of that product decision.
 
-The live documentation is available at **[docs.withpointbreak.com](https://docs.withpointbreak.com)**.
+## Local archive preview
 
-This site is built using [Mintlify](https://mintlify.com), a modern documentation platform.
+The source remains compatible with the Mintlify development server for local inspection:
 
-## Local Development
+```bash
+npm install -g mint
+mint dev
+```
 
-To preview documentation changes locally:
+Local preview does not imply that these docs are an active or canonical publication.
 
-1. **Install the Mintlify CLI:**
-   ```bash
-   npm i -g mint
-   ```
+## Repository structure
 
-2. **Run the dev server:**
-   ```bash
-   mint dev
-   ```
+- `*.mdx` — legacy Pointbreak Debug documentation pages
+- `docs.json` — archived navigation, theme, and authoritative Debug source/support anchors
+- `reference/` — historical CLI, IDE, and MCP reference material
+- `logo/` and `images/` — retained Debug documentation assets
 
-3. **View at:** [localhost:3000](http://localhost:3000)
+## Support
 
-## Repository Structure
+- [Pointbreak Debug issues](https://github.com/withpointbreak/pointbreak-debug/issues)
+- [Pointbreak Debug discussions](https://github.com/withpointbreak/pointbreak-debug/discussions)
 
-- `*.mdx` - Documentation pages (MDX format - Markdown with JSX)
-- `docs.json` - Site configuration (navigation, theme, etc.)
-- `reference/` - API and reference documentation
-- `logo/` - Site logos and branding assets
-
-## Publishing Changes
-
-Changes pushed to the `main` branch are automatically deployed to production via Mintlify's GitHub integration.
-
-## Contributing
-
-Found an issue or want to suggest improvements to the documentation?
-
-- **Issues:** [github.com/withpointbreak/pointbreak/issues](https://github.com/withpointbreak/pointbreak/issues)
-- **Discussions:** [github.com/withpointbreak/pointbreak/discussions](https://github.com/withpointbreak/pointbreak/discussions)
-
-## License
-
-Documentation content in this repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-Built by [Kevin Swiber](https://github.com/kevinswiber)
+Documentation content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
