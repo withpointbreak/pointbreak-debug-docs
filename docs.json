@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Pointbreak",
+  "name": "Pointbreak Debug",
   "colors": {
     "primary": "#0369a1",
     "light": "#38bdf8",
@@ -74,7 +74,7 @@
         },
         {
           "anchor": "GitHub",
-          "href": "https://github.com/withpointbreak/pointbreak",
+          "href": "https://github.com/withpointbreak/pointbreak-debug",
           "icon": "github"
         }
       ]
@@ -112,7 +112,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/withpointbreak",
-      "github": "https://github.com/withpointbreak/pointbreak"
+      "github": "https://github.com/withpointbreak/pointbreak-debug"
     }
   }
 }
